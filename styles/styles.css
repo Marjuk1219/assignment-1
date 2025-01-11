@@ -1,15 +1,18 @@
-*{
+* {
     margin: 0;
 }
+
 /* font syles */
-.open-sans-normal {
+
+.body {
+
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
 }
+
 
 .header {
     margin: 0px 160px 0px 160px;
@@ -50,8 +53,8 @@
     display: flex;
     border-radius: 24px;
     background: #C6E4D6;
-    max-width: 1280px;
     padding: 80px 100px;
+
     justify-content: center;
     align-items: center;
     gap: 64px;
@@ -79,6 +82,250 @@
     background: #006A50;
     color: #FFF;
     font-family: "Fira Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+
+/* main styles */
+/* pillar styles */
+
+.section-title {
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 80px 0 32px 0;
+}
+
+.pillar {
+    margin-left: 160px;
+}
+
+.pillars {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 0 160px 0 0;
+}
+
+.pillar-content {
+    text-align: left;
+    padding: 24px;
+    align-items: flex-start;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+}
+
+.description {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.Future-vision {
+    margin-left: 160px;
+}
+
+.future-description {
+    padding: 24px 160px 32px 0;
+}
+
+.future-elements {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 0 160px 0 0;
+}
+
+.elemnt-1 {
+    padding: 32px;
+    border-radius: 16px;
+    border: 0px solid #5490F5;
+    background: rgba(84, 144, 245, 0.20);
+
+}
+
+.elemnt-2 {
+    padding: 32px;
+    border-radius: 16px;
+    border: 0px solid #09A15C;
+    background: #C6E4D6;
+}
+
+.elemnt-3 {
+    padding: 24px;
+    border-radius: 16px;
+    border: 0px solid #FFC239;
+    background: #F7EBCF;
+}
+
+.btn-1,
+.btn-2,
+.btn-3 {
+    border-radius: 8px;
+    padding: 11px 20px;
+    border: none;
+    margin-top: 24px;
+}
+
+.btn-1 {
+    margin-top: 24px;
+    background-color: #5490F5;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.btn-2 {
+    margin-top: 24px;
+    background: #09A15C;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.btn-3 {
+    margin-top: 24px;
+    background-color: #FFC239;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.yusuf-shorkar {
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    padding: 48px 24px;
+    margin: 32px 160px 80px 160px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+
+.opinion {
+    margin-left: 160px;
+}
+
+.opinion-title {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.recent-news {
+    margin-left: 160px;
+}
+
+.recent-news-description {
+    padding: 24px 160px 32px 0;
+}
+
+.new-satellite1 {
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+    background-color: #FFF;
+    margin: 32px 160px 24px 0;
+
+}
+
+.new-satellite2 {
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+    background-color: #FFF;
+    margin: 24px 160px 24px 0;
+
+}
+
+.satellite {
+    border-radius: 24px;
+}
+
+.news-btn {
+    border-radius: 8px;
+    background: #006A50;
+    padding: 13px 26px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 32px;
+}
+
+.donate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #0E0E0E;
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.donation-description {
+    color: rgba(14, 14, 14, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 24px 248px 32px 248px;
+}
+
+.money-btn {
+
+    border-radius: 16px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.teka {
+    padding: 40px;
+}
+
+.aro-teka {
+    display: flex;
+    justify-content: center;
+
+    background: #FFF;
+    padding: 32px 284px;
+}
+
+.tk-btn {
+    padding: 17px 34px;
+    border-radius: 8px;
+    background: #006A50;
+    color: #FFF;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
